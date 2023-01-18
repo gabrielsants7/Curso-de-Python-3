@@ -7,7 +7,7 @@ print('''Suas opções:
 [ 2 ] TESOURA''')
 jogador = int(input('Qual é sua jogada? '))
 print('-=' * 11)
-print(f'O Computador jogou {itens[computador]}')
+print(f'O Computador jogou {itens(computador)}')
 print(f'O Jogador jogou {itens[jogador]}')
 print('-=' * 11)
 if computador == 0: # computador jogou PEDRA
